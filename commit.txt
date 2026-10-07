@@ -1,0 +1,33 @@
+Name: CHHIM VICHEKA
+
+PS C:\Users\User\Desktop\DevOps\devops-005-lesson-3> git checkout -b feature/commit 
+Switched to a new branch 'feature/commit'
+PS C:\Users\User\Desktop\DevOps\devops-005-lesson-3> git branch -v
+* feature/commit 5756ef3 inital code
+  main           5756ef3 inital code
+PS C:\Users\User\Desktop\DevOps\devops-005-lesson-3> git add . 
+PS C:\Users\User\Desktop\DevOps\devops-005-lesson-3> git commit -m "feature/commit"
+On branch feature/commit
+nothing to commit, working tree clean
+PS C:\Users\User\Desktop\DevOps\devops-005-lesson-3> git push
+fatal: The current branch feature/commit has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature/commit
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+PS C:\Users\User\Desktop\DevOps\devops-005-lesson-3> git push --set-upstream origin feature/commit
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'feature/commit' on GitHub by visiting:
+remote:      https://github.com/chhimvicheka/devops-005-lesson-3/pull/new/feature/commit
+remote: 
+To https://github.com/chhimvicheka/devops-005-lesson-3.git
+ * [new branch]      feature/commit -> feature/commit
+branch 'feature/commit' set up to track 'origin/feature/commit'.
+PS C:\Users\User\Desktop\DevOps\devops-005-lesson-3> git remote -v
+origin  https://github.com/chhimvicheka/devops-005-lesson-3.git (fetch)
+origin  https://github.com/chhimvicheka/devops-005-lesson-3.git (push)
+PS C:\Users\User\Desktop\DevOps\devops-005-lesson-3>                       
